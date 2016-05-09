@@ -1,7 +1,7 @@
 # atac-seq
 Implementation of ENCODE's ATACseq pipeline including F-seq, HOMER, and MACS2 with visualization of data using R.
 
-Usage: ./encode.atacseq.sh <genome directory> <reads location> <optional: location for swap>
+Usage: ./encode.atacseq.sh "genome directory" "reads location" "optional: location for swap"
 
 Works fine with relative paths, so if you had only one bottom level directory with everything you need for analysis (i.e., raw reads, reference sequence), you could simply run ./script.sh . . . or ./script.sh . .
 
